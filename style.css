@@ -1,3 +1,63 @@
-.header {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+:root{
+    --bg-transp:rgba(255, 255, 255, 0.25);
+}
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+.box {
+    height: 150vh;
+    width: 1170px;
+    /* background-color: red; */
+    background-image: url(/images/basketball-wp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+}
+p{
+    font-size: 15px;
+}
+
+header{
     height: 70px;
+    width: 1170px;
+    background-color:var(--bg-transp);
+    position: relative;
+}
+.dados{
+    width: auto;
+    height: 20px;
+    display: inline-block;
+    /* background-color: aqua; */
+    position: relative;
+}
+.local{
+    position: absolute;
+    left: 55%;
+    top: 35%;
+}
+.fone{
+    position:absolute;
+    right: 10%;
+    top: 35%;
+}
+.linha{
+    display: inline-block;
+    font-size: 15px;
+}
+p{
+    position: relative;
+    top: -5px;
+    font-family:'roboto',sans-serif;
+    font-weight: 900;
+}
+.conter{
+    margin:0 auto;
+    width: 628px;
+    height: 892px;
+    background-color: var(--bg-transp);
+    position: relative;
+    top: 50px;
 }
